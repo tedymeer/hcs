@@ -12,7 +12,7 @@ function App() {
 
 
     <Switch>
-      <Route exact path="/">
+      <Route exact path="/hcs/">
         <div className="nav-parent" >
         <Sidenav/>
         </div>
@@ -20,7 +20,7 @@ function App() {
         <Slider/>
       </Route>
      
-      <Route exact path="/contact">
+      <Route exact path="/hcs/contact">
     <h1>contact</h1>
       </Route>
     </Switch>
