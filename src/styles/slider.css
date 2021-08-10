@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+
+
+.slider-wrap{
+    /* filter: brightness(1.25); */
+}
+.carousel-indicators .active {
+    opacity: 0;
+}
+
+
+
+
+
+
+
+.carousel-content {
+    width: 100%;
+    position: absolute;
+    bottom: 20%;
+    left: 1%;
+    z-index: 20;
+    color: white;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+  }
+
+
+  body {
+    font-size: 62.5%;
+    font-style: Arial;
+  }
+  
+  .animation-box {
+    width: 100%;
+    height: 27.5rem;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  @keyframes topFadeOut {
+    0% {
+      position: absolute;
+      top: -3rem;
+      opacity: 0;
+    }
+  
+    75% {
+      position: absolute;
+      top: 25%;
+      opacity: 1;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes bottomFadeOut {
+    0% {
+      position: absolute;
+      bottom: -5rem;
+      opacity: 0;
+    }
+  
+    75% {
+      position: absolute;
+      bottom: 25%;
+      opacity: 1;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+    
+  }
+  
+  @keyframes topFadeOutVertical {
+    0% {
+      position: absolute;
+      top: -3rem;
+      opacity: 0;
+    }
+  
+    75% {
+      position: absolute;
+      top: 45%;
+      opacity: 1;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes rightFadeInOut {
+    0% {
+      position: absolute;
+      right: -3rem;
+      opacity: 0;
+    }
+  
+    75% {
+      position: absolute;
+      right: 10rem;
+      opacity: 1;
+    }
+  
+    100% {
+      opacity: 1;
+      right: 10rem;
+    }
+  }
+  
+  @keyframes fadeInOut {
+    0% {
+      opacity: 0;
+    }
+  
+    45% {
+      opacity: 1;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .first-text {
+    font-size: 4.4rem;
+    position: absolute;
+    left: 7rem;
+    top: 5rem;
+    opacity: 1;
+    animation-name: topFadeOut;
+    animation-duration: 2s;
+    color: #134321;
+    /* color: black; */
+    filter: brightness(1.75);
+    font-family: 'Raleway', sans-serif;
+  }
+  .caption{
+    font-size: 1rem;
+    margin-left: 0.5em;
+    /* color: black; */
+    color: #134321;
+    font-family: 'Raleway', sans-serif;
+}

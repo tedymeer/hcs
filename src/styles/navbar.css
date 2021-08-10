@@ -1,0 +1,37 @@
+.menu-icon{
+
+    width: 3em;
+    height: 3em;
+}
+.navbar-div{
+   
+    background-color: rgba(255,255,255,.9);
+    display: grid;
+    grid-template-columns: 1fr 10fr 1fr;
+    position: absolute;
+    width: 85%;
+    z-index: 5;
+    height: 10em;
+}
+.nav-parent{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.navbarlink{
+    text-decoration: none;
+    color: inherit;
+    
+}
+.hcs-logo{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+
+@media only screen and (max-width:1024px){
+    .navbar-div{
+        position: relative;
+    }
+}
