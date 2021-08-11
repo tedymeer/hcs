@@ -1,5 +1,4 @@
 .menu-icon{
-
     width: 3em;
     height: 3em;
 }
@@ -11,12 +10,25 @@
     position: absolute;
     width: 85%;
     z-index: 5;
-    height: 10em;
+    height: 6em;
 }
-.nav-parent{
-    width: 100%;
-    display: flex;
+.navbar-div-big{
+    background-color: rgba(255,255,255,.9);
+    display: grid;
+    grid-template-columns:repeat(8,0.5fr) 0.7fr;
+    align-content: center;
+    grid-gap: 0.7em;
+    position: absolute;
+    width: 95%;
+    z-index: 5;
+    height: 6em;
+}
+.navlink-big{
+    text-decoration: none;
+    color: inherit;
+    display: grid;
     justify-content: center;
+    align-content: center;
 }
 .navbarlink{
     text-decoration: none;
@@ -28,10 +40,44 @@
     justify-content: center;
     align-content: center;
 }
+.logostyle{
+    height: 4rem;
+    width: 6rem;
+}
+.logostylebig{
+    height: 4rem;
+    width: 6rem;
+}
 
-
+.sample{
+    border: 2px solid red;
+    height: 100%;
+}
 @media only screen and (max-width:1024px){
     .navbar-div{
         position: relative;
     }
 }
+
+@media only screen and (max-width:768px){
+    
+    .nav-parent-big{
+     display: none;   
+    }
+    .nav-parent-small{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+}
+@media only screen and (min-width:769px){
+    .nav-parent-small{
+        display: none;
+    }
+    .nav-parent-big{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+} 

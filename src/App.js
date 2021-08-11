@@ -1,23 +1,33 @@
-import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+
 import Sidenav from './components/Sidenav'
-import Slider from './components/Slider';
+import Sidenavbig from './components/Sidenavbig'
+import Slider from './components/Slider'
+import Test from './components/Test'
 import {Switch,Route} from 'react-router-dom'
+
+import './App.css'
+import 'bootstrap/dist/css/bootstrap.min.css'
+
 function App() {
   return (
-    <div className="App">
-  
-     
-     
 
+
+<div className="App">
 
     <Switch>
+     
       <Route exact path="/hcs/">
-        <div className="nav-parent" >
+        
+        <div className="nav-parent-small" >
         <Sidenav/>
         </div>
-
+        <div className="nav-parent-big">
+        <Sidenavbig/>
+        </div>
+        
         <Slider/>
+        <Test/>
+
       </Route>
      
       <Route exact path="/hcs/contact">

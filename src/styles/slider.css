@@ -3,40 +3,30 @@
 
 .slider-wrap{
     /* filter: brightness(1.25); */
+    position: absolute;
 }
-.carousel-indicators .active {
-    opacity: 0;
-}
-
-
-
-
-
-
 
 .carousel-content {
-    width: 100%;
+    width: 80%;
     position: absolute;
-    bottom: 20%;
-    left: 1%;
+    bottom: 35%;
+    left: 10%;
     z-index: 20;
     color: white;
     text-shadow: 0 1px 2px rgba(0,0,0,.6);
   }
 
-
-  body {
-    font-size: 62.5%;
-    font-style: Arial;
-  }
-  
   .animation-box {
     width: 100%;
-    height: 27.5rem;
+    height: 20.5rem;
+    /* height: fit-content; */
     margin: 0 auto;
     overflow: hidden;
     position: relative;
-  }
+    /* display: flex; */
+    /* justify-content: left; */
+}
+
   
   @keyframes topFadeOut {
     0% {
@@ -129,20 +119,185 @@
   .first-text {
     font-size: 4.4rem;
     position: absolute;
-    left: 7rem;
+    left: 4rem;
     top: 5rem;
     opacity: 1;
     animation-name: topFadeOut;
     animation-duration: 2s;
     color: #134321;
-    /* color: black; */
+    /* color: white; */
     filter: brightness(1.75);
     font-family: 'Raleway', sans-serif;
   }
   .caption{
     font-size: 1rem;
     margin-left: 0.5em;
-    /* color: black; */
+    /* color: white; */
     color: #134321;
     font-family: 'Raleway', sans-serif;
+}
+@media only screen and (min-width:1025px) and (max-width:1440px) {
+  .first-text {
+    font-size: 3.7rem;
+    top: 1.25rem;
+  } 
+  .carousel-content {
+    bottom: 38%;
+    left: 8%;
+    
+  }
+
+  .animation-box {
+    width: 100%;
+    height: 14rem;
+}
+.caption{
+  font-size: 1rem;
+  margin-left: 0.2em;
+}
+}
+
+@media only screen and (min-width:769px) and (max-width:1024px) {
+  .first-text {
+    font-size: 2.7rem;
+    top: 1.2rem;
+  } 
+  .carousel-content {
+    bottom: 35%;
+    left: 8%;
+    
+  }
+
+  .animation-box {
+    width: 100%;
+    height: 14rem;
+}
+.caption{
+  font-size: 1rem;
+  margin-left: 0.2em;
+}
+}
+
+@media only screen and (min-width:640px) and (max-width:768px) {
+  .first-text {
+    font-size: 2.5rem;
+    top: 1.7rem;
+  } 
+  .carousel-content {
+    bottom: 25%;
+    left: 10%;
+    
+  }
+
+  .animation-box {
+    width: 100%;
+    height: 14rem;
+}
+.caption{
+  font-size: 1rem;
+  margin-left: 0.2em;
+}
+}
+
+@media only screen and (min-width:542px) and (max-width:639px) {
+  .first-text {
+    font-size: 2rem;
+    top: 3.3rem;
+  } 
+  .carousel-content {
+    bottom: 25%;
+    left: 5%;
+    
+  }
+
+  .animation-box {
+    width: 100%;
+    height: 14rem;
+}
+.caption{
+  font-size: 0.9rem;
+  margin-left: 0.1em;
+}
+}
+@media only screen and (min-width:425px) and (max-width:541px) {
+  .first-text {
+    font-size: 1.5rem;
+    top: 5rem;
+  } 
+  .carousel-content {
+    bottom: 25%;
+    left: 11%;
+    
+  }
+
+  .animation-box {
+    width: 100%;
+    height: 14rem;
+}
+.caption{
+  font-size: 0.7rem;
+  margin-left: 0em;
+}
+}
+@media only screen and (min-width:375px) and (max-width:424px) {
+  .first-text {
+    font-size: 1.4rem;
+    top: 6rem;
+  } 
+  .carousel-content {
+    bottom: 25%;
+    left: 2%;
+    
+  }
+
+  .animation-box {
+    width: 100%;
+    height: 14rem;
+}
+.caption{
+  font-size: 0.6rem;
+  margin-left: 0em;
+}
+}
+
+@media only screen and (min-width:320px) and (max-width:374px) {
+  .first-text {
+    font-size: 1.1rem;
+    top: 7rem;
+  } 
+  .carousel-content {
+    bottom: 20%;
+    left: 2%;
+    
+  }
+
+  .animation-box {
+    width: 100%;
+    height: 14rem;
+}
+.caption{
+  font-size: 0.4rem;
+  margin-left: 0.2em;
+}
+}
+
+@media only screen and (max-width:319px) {
+  .first-text {
+    font-size: 1rem;
+    top: 7rem;
+  } 
+  .carousel-content {
+    bottom: 8%;
+    left: 2%;
+    
+  }
+
+  .animation-box {
+    width: 100%;
+    height: 14rem;
+}
+.caption{
+  font-size: 0.4rem;
+  margin-left: 0.2em;
+}
 }

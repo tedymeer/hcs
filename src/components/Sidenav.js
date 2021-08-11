@@ -62,7 +62,7 @@ export default function TemporaryDrawer() {
           <List>
           <ListItem button >
                 <ListItemIcon> <HomeIcon/> </ListItemIcon>
-                <NavLink className="navbarlink" to="/"><ListItemText primary="Home" ></ListItemText></NavLink>
+                <NavLink className="navbarlink" to="/hcs"><ListItemText primary="Home" ></ListItemText></NavLink>
           </ListItem>
           <ListItem button >
                 <ListItemIcon> <InfoIcon/> </ListItemIcon>
@@ -90,7 +90,7 @@ export default function TemporaryDrawer() {
           </ListItem>
           <ListItem button >
                 <ListItemIcon> <PhoneIcon/> </ListItemIcon>
-                <NavLink className="navbarlink" to="/contact"><ListItemText primary="Contact" ></ListItemText></NavLink>
+                <NavLink className="navbarlink" to="/hcs/contact"><ListItemText primary="Contact" ></ListItemText></NavLink>
           </ListItem>
           </List>
         </div>
@@ -110,7 +110,7 @@ export default function TemporaryDrawer() {
             </React.Fragment>
           ))}
 
-          <div className="hcs-logo"><img src={logo} style={{height:'6em',width:'9em'}}/></div>
+          <div className="hcs-logo"><img src={logo} className="logostyle"/></div>
           <div className="nav-bar-right-div"></div>
         </div>
       );
