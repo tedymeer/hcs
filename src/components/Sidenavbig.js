@@ -5,7 +5,6 @@ import '../styles/dropdown.css'
 function Sidenavbig() {
     return (
         <div className="navbar-div-big menu">
-         
         
         <NavLink to="hcs/contact" className="navlink-big" >
         Home
