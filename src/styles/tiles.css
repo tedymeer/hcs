@@ -1,0 +1,17 @@
+.tiles-wrap{
+    /* border: 2px solid red; */
+    height:10rem;
+    z-index: 30;
+    margin-top: -145px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+.tile{
+/* border: 2px solid blue; */
+width: 12em;
+background-color: white;
+box-shadow: 2px 2px 15px grey;
+border-radius: 2px;
+}

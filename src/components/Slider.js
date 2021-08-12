@@ -13,7 +13,7 @@ function Slider() {
   
   <section class="animation-box">
   <div class="first-text">
-     <div>Halal Certification Services</div> 
+     <div><span className="colored-letter">H</span>alal <span className="colored-letter">C</span>ertification <span className="colored-letter">S</span>ervices</div> 
      <div className="caption">Halal certificates for food, Cosmetics and Pharmaceuticals products</div> 
   
   </div>

@@ -3,7 +3,7 @@
 
 .slider-wrap{
     /* filter: brightness(1.25); */
-    position: absolute;
+    position:sticky;
 }
 
 .carousel-content {
@@ -26,8 +26,11 @@
     /* display: flex; */
     /* justify-content: left; */
 }
-
-  
+.carousel-indicators{
+    visibility: hidden;}
+.halal-text{
+  color: #134321;
+}  
   @keyframes topFadeOut {
     0% {
       position: absolute;
@@ -124,17 +127,28 @@
     opacity: 1;
     animation-name: topFadeOut;
     animation-duration: 2s;
-    color: #134321;
+    /* color: #134321; */
+    color: white;
+    /* background-color: rgba(255, 255, 255, 0.5); */
     /* color: white; */
     filter: brightness(1.75);
     font-family: 'Raleway', sans-serif;
+
+    text-shadow: -0.5px 0.5px 1px black,
+    0.5px 0.5px 1px black,
+    1px -1px 0 black,
+    -0.5px -0.5px 0 black;
+
   }
   .caption{
     font-size: 1rem;
     margin-left: 0.5em;
-    /* color: white; */
-    color: #134321;
+    color: white;
+    /* color: #134321; */
     font-family: 'Raleway', sans-serif;
+}
+.colored-letter{
+  color: #134321;
 }
 @media only screen and (min-width:1025px) and (max-width:1440px) {
   .first-text {
@@ -163,7 +177,7 @@
     top: 1.2rem;
   } 
   .carousel-content {
-    bottom: 35%;
+    bottom: 20%;
     left: 8%;
     
   }
