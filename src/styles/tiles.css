@@ -13,11 +13,11 @@
 /* border: 2px solid blue; */
 width: 12rem;
 background-color: white;
-/* box-shadow: 2px 2px 15px grey; */
-border-radius: 2px;
+/* box-shadow: 2px 2px 30px black; */
+border-radius: 1px;
 display: flex;
 flex-direction: column;
-transition: all .3s ease-in-out ;
+transition: all .2s ease-in-out ;
 
 
 }
@@ -49,4 +49,116 @@ font-weight: bolder;
 .tile-icon{
    transform: scale(3);
    color:#00ba51;
+}
+
+@media only screen and (min-width:1260px){
+    .tiles-wrap{
+      
+        margin-top: -15%;
+       
+    }
+    .tile{
+        width: 11rem;
+    }
+    .tiles-wrap{
+        height: 9.65rem;
+    }
+}
+@media only screen and (min-width:1025px) and (max-width:1259px){
+    .tiles-wrap{
+      
+        margin-top: -14%;
+       
+    }
+    .tile{
+        width: 10rem;
+    }
+    .tiles-wrap{
+        height: 8.75rem;
+    }
+}
+@media only screen and (min-width:769px) and (max-width:1024px){
+    .tiles-wrap{
+      
+        margin-top: -15%;
+       
+    }
+    .tile{
+        width: 8.7rem;
+    }
+    .tiles-wrap{
+        height: 7.1rem;
+    }
+    .text{
+        font-size: 0.7rem;
+    }
+    .tile-icon{
+        transform: scale(2.25);
+       
+     }
+}
+
+@media only screen and (min-width:560px) and (max-width:768px){
+    .tiles-wrap{
+      
+        margin-top: -15%;
+       
+    }
+    .tile{
+        width: 7.5rem;
+    }
+    .tiles-wrap{
+        height: 5.95rem;
+    }
+    .text{
+        font-size: 0.55rem;
+    }
+    .tile-icon{
+        transform: scale(1.85);
+       
+     }
+}
+
+@media only screen and (min-width:426px) and (max-width:559px){
+    .tiles-wrap{
+      
+        margin-top: -15%;
+       
+    }
+    .tile{
+        width: 9rem;
+        margin-bottom: 5px;
+    }
+    .tiles-wrap{
+        height: 8rem;
+    }
+    .text{
+        font-size: 0.6rem;
+    }
+    .tile-icon{
+        transform: scale(1.5);
+        color:#00ba51;
+     }
+}
+@media only screen and (max-width:425px){
+    .tiles-wrap{
+      
+        margin-top: -15%;
+       
+    }
+    .tile{
+        width: 7.5rem;
+        margin-bottom: 3px;
+        border: 1px solid darkslategray;
+    }
+    .tiles-wrap{
+        height: 10rem;
+    }
+    .text{
+        font-size: 0.55rem;
+    }
+    .tile-icon{
+        transform: scale(1.5);
+       
+     }
 }

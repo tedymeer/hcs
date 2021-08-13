@@ -101,7 +101,7 @@ export default function TemporaryDrawer() {
               
             <React.Fragment key={anchor} className="nav-bar-left-div">
 
-              <Button onClick={toggleDrawer(anchor, true)} ><MenuIcon style={{color:'#126535',width:'2em',height:'1.7em'}}/></Button>
+              <Button onClick={toggleDrawer(anchor, true)} ><MenuIcon style={{color:'white',width:'2em',height:'1.7em'}}/></Button>
                  
              
               <Drawer anchor={anchor} open={state[anchor]} onClose={toggleDrawer(anchor, false)}>
