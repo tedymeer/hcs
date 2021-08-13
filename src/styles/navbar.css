@@ -11,14 +11,12 @@
     display: grid;
     grid-template-columns: 1fr 10fr 1fr;
     position: absolute;
-    width: 85%;
+    width: 100%;
     z-index: 5;
     height: 5em;
 }
 .navbar-div-big{
     background-color: darkslategray;
-    /* background-color:currentColor; */
-    /* background-color: rgba(255,255,255,0.3); */
     display: grid;
     grid-template-columns:repeat(9,0.5fr);
     align-content: center;
@@ -27,9 +25,11 @@
     width: 95%;
     z-index: 5;
     height: 6em;
-    border-radius: 1px;
+    border-radius: 5px;
+    margin-top:0.8em ;
     /* box-shadow: 2px 2px 15px black; */
 }
+
 .navlink-big{
     text-decoration: none;
     color: white;
