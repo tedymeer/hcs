@@ -3,6 +3,7 @@ import Sidenav from '../components/Sidenav'
 import Sidenavbig from '../components/Sidenavbig'
 import Slider from '../components/Slider'
 import Tiles from '../components/Tiles'
+import SectionT from '../components/SectionT'
 import '../styles/home.css'
 
 function Homepage() {
@@ -21,6 +22,8 @@ function Homepage() {
         
         <Tiles/>
       
+
+        <SectionT/>
         </div>
     )
 }

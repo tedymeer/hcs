@@ -7,7 +7,7 @@
 }
 .navbar-div{
    
-    background-color: darkslategray;
+    background-color: darkkhaki;
     display: grid;
     grid-template-columns: 1fr 10fr 1fr;
     position: absolute;
@@ -16,7 +16,7 @@
     height: 5em;
 }
 .navbar-div-big{
-    background-color: darkslategray;
+    background-color: darkkhaki;
     display: grid;
     grid-template-columns:repeat(9,0.5fr);
     align-content: center;

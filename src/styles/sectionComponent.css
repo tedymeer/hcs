@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+.section-component{
+    /* border: 2px solid red; */
+   box-shadow: 1px 1px 10px grey;
+   background-color:ghostwhite;
+   border-radius: 5px;
+}
+.section-component:hover .sec-heading{
+        color: #00ba51;
+}
+.sec-heading{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.8rem;
+    /* border: 2px solid red; */
+    text-align: center;
+    transition: all .35s ease-in-out;
+   
+   
+}
+
+.sec-para{
+    font-family: 'Raleway', sans-serif;
+    /* border: 2px solid red; */
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    /* padding: 1.5em; */
+}
