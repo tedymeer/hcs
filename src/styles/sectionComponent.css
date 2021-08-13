@@ -5,6 +5,7 @@
    box-shadow: 1px 1px 10px grey;
    background-color:ghostwhite;
    border-radius: 5px;
+   
 }
 .section-component:hover .sec-heading{
         color: #00ba51;
