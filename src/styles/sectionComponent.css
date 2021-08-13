@@ -12,6 +12,7 @@
 .sec-heading{
     font-family: 'Raleway', sans-serif;
     font-size: 1.8rem;
+    color: darkgreen;
     /* border: 2px solid red; */
     text-align: center;
     transition: all .35s ease-in-out;
