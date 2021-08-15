@@ -5,7 +5,7 @@ import Slider from '../components/Slider'
 import Tiles from '../components/Tiles'
 import SectionT from '../components/SectionT'
 import OwlSlider from '../components/OwlSlider'
-
+import Footer from '../components/Footer'
 
 import '../styles/home.css'
 import SectionHeading from '../components/SectionHeading'
@@ -33,7 +33,7 @@ function Homepage() {
         <SectionHeading text="RECOGNITIONS"/>
         <OwlSlider/>
         
-       
+        <Footer/>
 
         </div>
     )

@@ -3,8 +3,19 @@
     /* border: 5px solid black; */
     margin-top: 4em;
     display: grid;
-    grid-template-columns: 1fr 1fr ;
+    grid-template-columns: 0.25fr 0.25fr 0.25fr 0.25fr;
     grid-gap:2em;
     padding: 2em;
   
+}
+
+@media only screen and (min-width:700px) and (max-width:948px){
+    .sectionT-wrap{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media only screen and (max-width:699px){
+    .sectionT-wrap{
+        grid-template-columns: 1fr;
+    }
 }

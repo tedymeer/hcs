@@ -11,6 +11,18 @@ import pic4 from '../assets/rec-44.jpg'
 import pic5 from '../assets/rec-55.png'
 import pic6 from '../assets/rec-66.jpg'
 import CurrentItemOwl from './CurrentItemOwl';
+
+const responsive = {
+    0:{
+        items:1
+    },
+    600:{
+        items:3
+    },
+    1000:{
+        items:5
+    }
+}
 function OwlSlider() {
 
     return (
@@ -26,6 +38,7 @@ function OwlSlider() {
         items={5}
         center={true}
         dots={false}
+        responsive={responsive}
         >
 
         <img src={pic1} alt="pic1" className="owl-pic" key={1} id={1}/>
