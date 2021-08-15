@@ -2,22 +2,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 .section-component{
     /* border: 2px solid red; */
-   box-shadow: 1px 1px 10px grey;
-   background-color:ghostwhite;
+   /* box-shadow: 1px 1px 10px grey; */
+   /* background-color:ghostwhite; */
    border-radius: 5px;
+
+
+
+
+   /* border: 1px solid #333; */
+   /* box-shadow: 10px 0 5px -2px #888; */
    
 }
+.section-component:hover{
+    cursor: pointer;
+
+}
 .section-component:hover .sec-heading{
-        color: #00ba51;
+        /* color: #00ba51; */
+        color: darkgreen;
+       
 }
 .sec-heading{
     font-family: 'Raleway', sans-serif;
     font-size: 1.8rem;
-    color: darkgreen;
+    color: darkgoldenrod;
     /* border: 2px solid red; */
     text-align: center;
     transition: all .35s ease-in-out;
-   
+    padding: 0.8em;
    
 }
 

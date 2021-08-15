@@ -5,6 +5,7 @@ import Slider from '../components/Slider'
 import Tiles from '../components/Tiles'
 import SectionT from '../components/SectionT'
 import OwlSlider from '../components/OwlSlider'
+import CardSlider from '../components/CardSlider'
 import Footer from '../components/Footer'
 
 import '../styles/home.css'
@@ -31,7 +32,12 @@ function Homepage() {
         <SectionT/>
 
         <SectionHeading text="RECOGNITIONS"/>
+        
         <OwlSlider/>
+
+        <SectionHeading text="NEWS"/>
+        
+        <CardSlider/>
         
         <Footer/>
 

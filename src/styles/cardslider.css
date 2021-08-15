@@ -1,0 +1,18 @@
+.slick-slider{
+    margin-bottom: 6em;
+    margin-top: 2em;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.slick-prev {
+    left: 3% !important;
+    z-index: 1;
+    transform: scale(1.5);
+
+  }
+  .slick-next {
+    right: 3% !important;
+    z-index: 1;
+    transform: scale(1.5);
+  }
