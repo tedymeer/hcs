@@ -1,7 +1,7 @@
 .sectionT-wrap{
     position:relative;
     /* border: 5px solid black; */
-    /* margin-top: 2em; */
+    margin-top: 2em;
     display: grid;
     grid-template-columns: 0.25fr 0.25fr 0.25fr 0.25fr;
     grid-gap:2em;
