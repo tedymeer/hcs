@@ -1,0 +1,25 @@
+.slick-slider{
+    margin-bottom: 6em;
+    margin-top: 2em;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.slick-prev {
+    left: 3% !important;
+    z-index: 1;
+    transform: scale(1.5);
+    /* background-color: black; */
+
+  }
+  .slick-next {
+    right: 3% !important;
+    z-index: 1;
+    transform: scale(1.5);
+    /* background-color: black; */
+  }
+
+  .slick-slider.slick-initialized {
+    padding-top: 2em;
+    padding-bottom: 3em;
+}

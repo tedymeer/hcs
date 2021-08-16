@@ -9,14 +9,14 @@ import "slick-carousel/slick/slick-theme.css";
 // import '../styles/_slick.scss'
 // import '../styles/_slickTheme.scss'
 
-import '../styles/cardslider.css'
+import '../styles/newscardslider.css'
 
 import news1 from '../assets/news1.jpg'
 
 class CardSlider extends React.Component {
   render() {
     var settings = {
-      dots: true,
+      dots: false,
       infinite: true,
       loop:true,
       speed: 2000,

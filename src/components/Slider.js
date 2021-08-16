@@ -1,8 +1,13 @@
 import React from 'react'
 import {Carousel} from 'react-bootstrap'
-import cover2 from '../assets/bc3.jpg'
-import cover3 from '../assets/bc5.jpg'
-import cover4 from '../assets/bc4.jpg'
+import cover2 from '../assets/bc10.jpg'
+import cover3 from '../assets/bc11.jpg'
+// import cover4 from '../assets/bc12.jpg'
+// import cover5 from '../assets/bc13.jpg'
+import cover6 from '../assets/bc14.jpg'
+import cover7 from '../assets/bc17.jpg'
+// import cover7 from '../assets/bc15.png'
+// import cover8 from '../assets/bc16.jpg'
 
 import '../styles/slider.css'
 function Slider() {
@@ -20,33 +25,36 @@ function Slider() {
   </section>
 
   </div>
-        <Carousel slide>
+        <Carousel fade>
 
   <Carousel.Item interval={2500}>
     <img
-      className="d-block w-100"
+      className="d-block w-100 cimg"
       src={cover2}
+      alt="First slide"
+    />
+   
+  </Carousel.Item>
+
+  <Carousel.Item interval={2500} >
+    <img
+      className="d-block w-100 cimg"
+      src={cover7}
       alt="First slide"
     />
    
   </Carousel.Item>
   <Carousel.Item interval={2500}>
     <img
-      className="d-block w-100"
+      className="d-block w-100 cimg"
       src={cover3}
-      alt="Second slide"
-    />
-    
-  </Carousel.Item>
-  <Carousel.Item interval={2500}>
-    <img
-      className="d-block w-100"
-      src={cover4}
-      alt="Third slide"
+      alt="First slide"
     />
    
   </Carousel.Item>
  
+
+
     </Carousel>
 </div>
     )

@@ -7,7 +7,7 @@
 }
 .navbar-div{
    
-    background-color: darkkhaki;
+    background-color: transparent;
     display: grid;
     grid-template-columns: 1fr 10fr 1fr;
     position: absolute;
@@ -16,7 +16,7 @@
     height: 5em;
 }
 .navbar-div-big{
-    background-color: darkkhaki;
+    background-color: transparent;
     display: grid;
     grid-template-columns:repeat(9,0.5fr);
     align-content: center;
@@ -43,7 +43,7 @@
     transition: all .2s ease-in-out ;
 }
 .navlink-big:hover{
-color: #18f059;
+    color: #00ba51;
 }
 .navbarlink{
     text-decoration: none;
@@ -60,8 +60,8 @@ color: #18f059;
     width: 6rem;
 }
 .logostylebig{
-    height: 4.5rem;
-    width: 7rem;
+    height: 5.5rem;
+    width: 8rem;
 }
 
 .sample{
@@ -82,13 +82,13 @@ color: #18f059;
     transition: all .2s ease-in-out;
 }
 .contact-btn:hover{
-    background-color: #134321;
+    background-color: black;
     color: white;
     border: 1px solid white;
 }
 @media only screen and (max-width:1024px){
     .navbar-div{
-        position: relative;
+        position: absolute;
         width: 100%;
     }
 }

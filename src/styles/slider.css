@@ -30,7 +30,18 @@
     visibility: hidden;}
 .halal-text{
   color: #134321;
-}  
+} 
+.carousel-control-prev {
+  display: none;
+  visibility: hidden;
+  left: 0;
+}
+.carousel-control-next {
+  display: none;
+  left: 0;
+  visibility: hidden;
+}
+
   @keyframes topFadeOut {
     0% {
       position: absolute;
@@ -193,7 +204,7 @@
     top: 1.7rem;
   } 
   .carousel-content {
-    bottom: 25%;
+    bottom: 16%;
     left: 10%;
     
   }
@@ -206,6 +217,7 @@
   font-size: 1rem;
   margin-left: 0.2em;
 }
+
 }
 
 @media only screen and (min-width:542px) and (max-width:639px) {
@@ -247,14 +259,19 @@
   font-size: 0.7rem;
   margin-left: 0em;
 }
+.cimg{
+  height: 50vh;
+}
+
 }
 @media only screen and (min-width:375px) and (max-width:424px) {
   .first-text {
-    font-size: 1.4rem;
-    top: 6rem;
-  } 
+    font-size: 1.7rem;
+    top: 7rem;
+}
   .carousel-content {
-    bottom: 25%;
+    bottom: 0%;
+    top:5%;
     left: 2%;
     
   }
@@ -267,6 +284,10 @@
   font-size: 0.6rem;
   margin-left: 0em;
 }
+.cimg{
+  height: 60vh;
+}
+
 }
 
 @media only screen and (min-width:320px) and (max-width:374px) {
@@ -288,6 +309,10 @@
   font-size: 0.4rem;
   margin-left: 0.2em;
 }
+.cimg{
+  height: 50vh;
+}
+
 }
 
 @media only screen and (max-width:319px) {
@@ -309,4 +334,8 @@
   font-size: 0.4rem;
   margin-left: 0.2em;
 }
+.cimg{
+  height: 50vh;
+}
+
 }

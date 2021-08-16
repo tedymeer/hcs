@@ -6,7 +6,7 @@ function Sidenavbig() {
     return (
         <div className="navbar-div-big menu">
         
-        <NavLink to="hcs/contact" className="navlink-big" >
+        <NavLink to="/" className="navlink-big" >
         Home
         </NavLink>
         
@@ -29,7 +29,7 @@ function Sidenavbig() {
          <NavLink to="hcs/contact" className="navlink-big" >
         Blog
          </NavLink>
-         <NavLink to="hcs/contact" className="navlink-big">
+         <NavLink to="/contact" className="navlink-big">
         <div className="contact-btn">
         CONTACT US
         </div>

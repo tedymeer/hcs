@@ -1,0 +1,21 @@
+.ref-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+    margin-left: 0.3em;
+    margin-right: 0.3em;
+}
+
+
+.ref-img-style{
+height: 80px;
+width: 100%;
+}
+
+@media only screen and (max-width:425px){
+    .ref-img-style{
+        height: 80px;
+        width: 65%;
+        }
+}

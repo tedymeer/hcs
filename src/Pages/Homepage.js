@@ -5,7 +5,8 @@ import Slider from '../components/Slider'
 import Tiles from '../components/Tiles'
 import SectionT from '../components/SectionT'
 import OwlSlider from '../components/OwlSlider'
-import CardSlider from '../components/CardSlider'
+import NewsCardSlider from '../components/CardSlider'
+import ReferencesCardSlider from '../components/RefCardSlider'
 import Footer from '../components/Footer'
 
 import '../styles/home.css'
@@ -22,23 +23,28 @@ function Homepage() {
         <div className="nav-parent-big">
         <Sidenavbig/>
         </div>
-        <div>
+      
         <Slider/>
-        </div>
         
         <Tiles/>
       
 
         <SectionT/>
 
-        <SectionHeading text="RECOGNITIONS"/>
+<div style={{backgroundColor:'paleGoldenRod'}}>
+        <SectionHeading text="RECOGNITIONS" background={{backgroundColor:'paleGoldenRod'}}/>
         
         <OwlSlider/>
-
-        <SectionHeading text="NEWS"/>
+</div>
+<div style={{backgroundColor:'paleGoldenRod'}}>
+        <SectionHeading text="NEWS" background={{backgroundColor:'paleGoldenRod'}}/>
         
-        <CardSlider/>
-        
+        <NewsCardSlider/>
+</div>
+        <SectionHeading text="REFERENCES" background={{backgroundColor:'paleGoldenRod'}}/>
+        <div style={{backgroundColor:'paleGoldenRod'}}>
+        <ReferencesCardSlider/>
+        </div>
         <Footer/>
 
         </div>

@@ -62,7 +62,7 @@ export default function TemporaryDrawer() {
           <List>
           <ListItem button >
                 <ListItemIcon> <HomeIcon/> </ListItemIcon>
-                <NavLink className="navbarlink" to="/hcs"><ListItemText primary="Home" ></ListItemText></NavLink>
+                <NavLink className="navbarlink" to="/"><ListItemText primary="Home" ></ListItemText></NavLink>
           </ListItem>
           <ListItem button >
                 <ListItemIcon> <InfoIcon/> </ListItemIcon>
@@ -90,7 +90,7 @@ export default function TemporaryDrawer() {
           </ListItem>
           <ListItem button >
                 <ListItemIcon> <PhoneIcon/> </ListItemIcon>
-                <NavLink className="navbarlink" to="/hcs/contact"><ListItemText primary="Contact" ></ListItemText></NavLink>
+                <NavLink className="navbarlink" to="/contact"><ListItemText primary="Contact" ></ListItemText></NavLink>
           </ListItem>
           </List>
         </div>

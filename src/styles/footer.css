@@ -5,7 +5,8 @@
 	padding: 50px;
 	color: #fff;
 	background-color: black;
-	margin-top: 2em;
+	/* margin-top: 2em; */
+	margin-top: 0;
 	}
 	
 	.footer > * {
@@ -87,4 +88,13 @@
 	.flag-style{
 		width: 1.2em;
 		height: 1em;
+	}
+
+
+	@media only screen and (max-width:425px) {
+		
+	.footer {
+		
+		margin-top: 0;
+		}
 	}

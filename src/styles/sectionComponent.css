@@ -24,7 +24,7 @@
 }
 .sec-heading{
     font-family: 'Raleway', sans-serif;
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     color: darkgoldenrod;
     /* border: 2px solid red; */
     text-align: center;
@@ -39,4 +39,9 @@
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     /* padding: 1.5em; */
+}
+@media only screen and (max-width:425px) {
+    .sec-heading{
+        font-size: 1.2rem;
+    }
 }

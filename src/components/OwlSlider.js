@@ -35,7 +35,7 @@ function OwlSlider() {
         autoplayTimeout={2000} 
         autoplaySpeed={2000}
         autoplayHoverPause={true}
-        items={5}
+        items={6}
         center={true}
         dots={false}
         responsive={responsive}

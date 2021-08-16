@@ -11,11 +11,11 @@ function App() {
 
     <Switch>
      
-      <Route exact path="/hcs/">
+      <Route exact path="/">
      <Homepage/>
       </Route>
      
-      <Route exact path="/hcs/contact">
+      <Route exact path="/contact">
       </Route>
     </Switch>
 
