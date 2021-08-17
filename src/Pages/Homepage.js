@@ -4,9 +4,11 @@ import Sidenavbig from '../components/Sidenavbig'
 import Slider from '../components/Slider'
 import Tiles from '../components/Tiles'
 import SectionT from '../components/SectionT'
+import SectionT2 from '../components/SectionT2'
 import OwlSlider from '../components/OwlSlider'
 import NewsCardSlider from '../components/CardSlider'
 import ReferencesCardSlider from '../components/RefCardSlider'
+import Location from '../components/Location';
 import Footer from '../components/Footer'
 
 import '../styles/home.css'
@@ -30,6 +32,7 @@ function Homepage() {
       
 
         <SectionT/>
+        <SectionT2/>
 
 <div style={{backgroundColor:'paleGoldenRod'}}>
         <SectionHeading text="RECOGNITIONS" background={{backgroundColor:'paleGoldenRod'}}/>
@@ -45,6 +48,10 @@ function Homepage() {
         <div style={{backgroundColor:'paleGoldenRod'}}>
         <ReferencesCardSlider/>
         </div>
+      
+        < Location/>
+      
+       
         <Footer/>
 
         </div>

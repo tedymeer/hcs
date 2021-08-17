@@ -1,0 +1,102 @@
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  outline: none;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.heading {
+  margin-top: 0px;
+}
+.separator {
+  position: relative;
+  display: inline-block;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+}
+.separator:after,
+.separator:before {
+  position: absolute;
+  content: "";
+  width: 50px;
+  height: 2px;
+  background: #353535;
+  top: 50%;
+}
+
+.separator i {
+  color: #353535;
+}
+
+.separator:after {
+  right: 140%;
+}
+
+.separator:before {
+  left: 140%;
+}
+.heading-main-white {
+  color: #00ba51;
+}
+
+.feature-section {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVcGaZglKVlqHdqTOGo2k78lXx0q1jWA5F1qSzdXXrdm1GZL_PaTMYCRCPY-xmVi4mFks&usqp=CAU);
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 60px 0;
+  min-height: 50vh;
+}
+.features-div {
+}
+.feature-back:hover {
+  color: #fff !important;
+  background-color: #ffffff1c;
+  border-radius: 11px;
+}
+.feature-back {
+  color: #fff !important;
+  padding: 18px;
+}
+.features-title {
+  font-size: 30px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #00ba51;
+}
+.below-line-feature {
+  border-top: 2px solid #fff;
+  display: inline-block;
+  bottom: auto;
+  left: auto;
+  margin: auto auto auto 0;
+  font-size: 16px;
+  color: #fff;
+  padding-left: 50px;
+  padding-top: 4px;
+}
+.features-div .show {
+  color: #00ba51;
+  font-size: 48px !important;
+  float: left;
+  padding-right: 18px;
+  padding-top: 15px;
+}
+.features-heading {
+  font-size: 21.98px;
+  letter-spacing: 0.5px;
+  color: #00ba51;
+}
+
+.features-div p {
+  font-size: 14px;
+  color: #fff;
+  padding-left: 90px;
+  line-height: 2;
+}

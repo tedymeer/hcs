@@ -24,10 +24,10 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "start": "react-scripts start", 	
-    "build": "react-scripts build", 	
-    "predeploy": "npm run build", 
-    "deploy": "firebase build" ,
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "firebase build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

@@ -3,7 +3,9 @@ import Homepage from './Pages/Homepage';
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
+
 function App() {
+
   return (
 
 
@@ -13,6 +15,7 @@ function App() {
      
       <Route exact path="/">
      <Homepage/>
+     
       </Route>
      
       <Route exact path="/contact">
