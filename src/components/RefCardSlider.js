@@ -66,7 +66,7 @@ class CardSlider extends React.Component {
       ]
     };
     return (
-      <div>
+      <div className="ref-section">
         <div className="ref-main">
                 <div className="ref-heading">
                         REFERENCES

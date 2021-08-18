@@ -12,7 +12,6 @@ import Location from '../components/Location';
 import Footer from '../components/Footer'
 
 import '../styles/home.css'
-import SectionHeading from '../components/SectionHeading'
 
 
 function Homepage() {
@@ -34,13 +33,9 @@ function Homepage() {
         {/* <SectionT/> */}
         <SectionT2/>
 
-
-        <SectionHeading text="RECOGNITIONS" background={{backgroundColor:'paleGoldenRod'}}/>
-        
-        <Recognitions/>
+           <Recognitions/>
         
 <div style={{backgroundColor:'paleGoldenRod'}}>
-        <SectionHeading text="NEWS" background={{backgroundColor:'paleGoldenRod'}}/>
         <NewsCardSlider/>
  </div>       
         {/* <OwlSlider/> */}

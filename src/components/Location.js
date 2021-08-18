@@ -5,7 +5,7 @@ import EmailIcon from '@material-ui/icons/Email';
 import PhoneForwardedIcon from '@material-ui/icons/PhoneForwarded';
 function App() {
   return (
-    <div >
+    <div className="loc-section">
       <div  className="main-box">
          <div className="row" >
             <div className="col-md-4"  >

@@ -8,7 +8,7 @@
     align-content: center;
     grid-gap: 1em;
     /* background-color: black; */
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVcGaZglKVlqHdqTOGo2k78lXx0q1jWA5F1qSzdXXrdm1GZL_PaTMYCRCPY-xmVi4mFks&usqp=CAU);
+    background-image: url(https://images.unsplash.com/photo-1588345921523-c2dcdb7f1dcd?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8d2hpdGV8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80);
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: cover;
@@ -62,6 +62,7 @@
     
     font-size: 14px;
     color: #fff;
+    color: black;
     /* padding-left: 90px; */
     line-height: 2;
 
@@ -71,4 +72,14 @@
     border-radius: 50%;
     height: 7em;
     width: 7em;
+}
+
+
+
+@media only screen and (max-width:768px){
+    .rec-wrap{
+     
+        grid-template-columns: 1fr;
+       
+    }
 }

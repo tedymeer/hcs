@@ -23,3 +23,13 @@
     padding-top: 2em;
     padding-bottom: 3em;
 }
+
+.ref-section {
+  background-image: url(https://images.unsplash.com/photo-1588345921523-c2dcdb7f1dcd?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8d2hpdGV8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80);
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* padding: 60px 0; */
+  min-height: 50vh;
+
+}

@@ -54,7 +54,7 @@ class CardSlider extends React.Component {
       ]
     };
     return (
-      <div>
+      <div className="news-section">
         <Slider {...settings} >
            
             <NewsCard photo={news1}/>
