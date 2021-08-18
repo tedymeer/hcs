@@ -66,6 +66,19 @@ class CardSlider extends React.Component {
       ]
     };
     return (
+      <div>
+        <div className="ref-main">
+                <div className="ref-heading">
+                        REFERENCES
+                </div>
+                <div className="owl-para">
+                   <span className="owl-para-main-words">Our clients are our best advertising.</span>  Our technical auditors assist major or small companies all over the world to insure the Halal quality of their products. Numerous famous enterprises in Switzerland and Europe belong to our loyal established clientele.
+                   <br/>
+                   <br/>
+                    <span className="owl-para-main-words">HCS has been doing pioneer work for years. </span> We are counted among the first certification bodies that has certified food-graded lubricants (Shell Aseol AG, Fuchs Lubritech), vaccines (Berna Biotech) or even flavors (F.I.S once Nestlé, Givaudan).
+     </div>
+                      </div>        
+       
       <div className="ref-slider-wrap">
         <Slider {...settings} >
 
@@ -84,6 +97,12 @@ class CardSlider extends React.Component {
         <RefCard photo={pic12}/>
 
         </Slider>
+      </div>
+       <div className="ref-main">
+       <div className="owl-para">
+                  An HCS-Certificate is recognized worldwide as a guarantee of professional and trustworthy certification with highest quality. The collaboration and combined input of world-class scientists, legal and religious scholars from around the world assures a Halal guarantee on the entire value chain of a product.
+                      </div>
+     </div>
       </div>
     );
   }

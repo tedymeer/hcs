@@ -11,7 +11,7 @@ function App() {
             <div className="col-md-4"  >
                 <div class="py-4">
                    
-                    <h2 className="text-capitalize font-weight-bold my-3 "><span style={{color:"black",fontWeight:"bold",fontSize:"1.7rem"}}>OFFICE  </span>  <span style={{color: "darkslategray",fontSize:"1.7rem",textDecoration:"none",fontWeight:"bold"}}s>LOCATIONS</span>
+                    <h2 className="text-capitalize font-weight-bold my-3 "><span style={{color:"black",fontWeight:"bold",fontSize:"1.7rem"}}>OFFICE  </span>  <span style={{color: "#00ba51",fontSize:"1.7rem",textDecoration:"none",fontWeight:"bold"}}s>LOCATIONS</span>
                     </h2>
                     <p className="main-info" >Halal Certification Services certifies companies all
                         over the world. Our locally based auditors can support you in your local languages.

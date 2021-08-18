@@ -12,7 +12,7 @@ import cover7 from '../assets/bc17.jpg'
 import '../styles/slider.css'
 function Slider() {
     return (
-        <div className="slider-wrap">
+        <div className="slider-wrap" >
   <div class="carousel-content">
   
   <section class="animation-box">

@@ -26,6 +26,18 @@ const responsive = {
 function OwlSlider() {
 
     return (
+        <div style={{backgroundColor:"white"}}>
+            <div className="owl-main">
+                <div className="owl-heading">
+                        OUR RECOGNITIONS
+                </div>
+                <div className="owl-para">
+                    Due to our high Halal Quality Standards, HCS  is a trusted and worldwide recognized certification body. We issue Halal certificates recognized by : <span className="owl-para-main-words">LPPOM</span> MUI (lndonesia) including flavors, <span className="owl-para-main-words">JAKIM</span> (Malaysia), <span className="owl-para-main-words"></span>MUIS (Singapore), <span className="owl-para-main-words">CICOT</span> (Thailand), <span className="owl-para-main-words">UAE, Saudi Arabia , </span>and other respected Halal authorities around the world.
+<br/>
+This worldwide recognition is the guarantee of a global acceptance of the HCS’s Halal certified products.
+                </div>
+            </div>
+
         <div className="owl-slider-wrap">
         <OwlCarousel 
         className='owl-theme owl-slider-style' 
@@ -51,6 +63,7 @@ function OwlSlider() {
         </OwlCarousel>
 
 
+        </div>
         </div>
     )
 }

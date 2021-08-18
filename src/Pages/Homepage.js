@@ -31,23 +31,20 @@ function Homepage() {
         <Tiles/>
       
 
-        <SectionT/>
+        {/* <SectionT/> */}
         <SectionT2/>
 
-<div style={{backgroundColor:'paleGoldenRod'}}>
-        <SectionHeading text="RECOGNITIONS" background={{backgroundColor:'paleGoldenRod'}}/>
-        
-        <OwlSlider/>
-</div>
-<div style={{backgroundColor:'paleGoldenRod'}}>
-        <SectionHeading text="NEWS" background={{backgroundColor:'paleGoldenRod'}}/>
-        
         <NewsCardSlider/>
-</div>
+        <OwlSlider/>
+
+
+        
+     
+{/* 
         <SectionHeading text="REFERENCES" background={{backgroundColor:'paleGoldenRod'}}/>
-        <div style={{backgroundColor:'paleGoldenRod'}}>
+        <div style={{backgroundColor:'paleGoldenRod'}}> */}
         <ReferencesCardSlider/>
-        </div>
+        {/* </div> */}
       
         < Location/>
       
