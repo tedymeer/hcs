@@ -2,11 +2,7 @@
 
 .rec-wrap{
     /* border: 2px solid red; */
-    display: grid;
-    grid-template-columns: 0.3fr 0.3fr 0.3fr;
-    justify-content: center;
-    align-content: center;
-    grid-gap: 1em;
+   
     /* background-color: black; */
     background-image: url(https://images.unsplash.com/photo-1588345921523-c2dcdb7f1dcd?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8d2hpdGV8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80);
     background-repeat: no-repeat;
@@ -17,6 +13,13 @@
     min-height: 50vh;
     padding: 2em;
 
+}
+.g-wrap{
+    display: grid;
+    grid-template-columns: 0.3fr 0.3fr 0.3fr;
+    justify-content: center;
+    align-content: center;
+    grid-gap: 1em;
 }
 .rec-card{
     /* border: 2px solid blue; */
@@ -47,7 +50,7 @@
     font-size: 21.98px;
     letter-spacing: 0.5px;
     color: #00ba51;
-
+    font-weight: 500;
 
 }
 .rec-caption{
@@ -65,6 +68,7 @@
     color: black;
     /* padding-left: 90px; */
     line-height: 2;
+    
 
 }
 
@@ -72,12 +76,20 @@
     border-radius: 50%;
     height: 7em;
     width: 7em;
+    border: 4px double black;
+}
+.recog-heading{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    /* letter-spacing: 2px; */
+    text-align: center; 
+    margin-bottom: 1em;
 }
 
 
-
 @media only screen and (max-width:768px){
-    .rec-wrap{
+    .g-wrap{
      
         grid-template-columns: 1fr;
        

@@ -1,19 +1,28 @@
+import {useContext} from 'react'
+import EmailIcon from '@material-ui/icons/Email';
+import PhoneForwardedIcon from '@material-ui/icons/PhoneForwarded';
+import UserContext from '../UserContext'
 
 import '../styles/location.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import EmailIcon from '@material-ui/icons/Email';
-import PhoneForwardedIcon from '@material-ui/icons/PhoneForwarded';
-function App() {
+
+
+function Location() {
+    const locations = useContext(UserContext)
   return (
+      
     <div className="loc-section">
       <div  className="main-box">
          <div className="row" >
             <div className="col-md-4"  >
                 <div class="py-4">
                    
-                    <h2 className="text-capitalize font-weight-bold my-3 "><span style={{color:"black",fontWeight:"bold",fontSize:"1.7rem"}}>OFFICE  </span>  <span style={{color: "#00ba51",fontSize:"1.7rem",textDecoration:"none",fontWeight:"bold"}}s>LOCATIONS</span>
+                    <h2 className="text-capitalize font-weight-bold my-3 ">
+<span style={{color:"white",fontWeight:"bold",fontSize:"1.7rem"}}>OFFICE  </span>  <span style={{color: "#00ba51",fontSize:"1.7rem",textDecoration:"none",fontWeight:"bold"}}s>LOCATIONS</span>
                     </h2>
-                    <p className="main-info" >Halal Certification Services certifies companies all
+                    <p className="main-info" >
+                        {console.log(locations)}
+                        Halal Certification Services certifies companies all
                         over the world. Our locally based auditors can support you in your local languages.
                         Find the contact details of our offices nearest to you.</p>
                 </div>
@@ -88,4 +97,4 @@ function App() {
   );
 }
 
-export default App;
+export default Location;

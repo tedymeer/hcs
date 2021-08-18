@@ -55,6 +55,7 @@ class CardSlider extends React.Component {
     };
     return (
       <div className="news-section">
+        <div className="news-heading">NEWS</div>
         <Slider {...settings} >
            
             <NewsCard photo={news1}/>

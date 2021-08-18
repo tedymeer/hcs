@@ -3,8 +3,8 @@
 	display: flex;
 	flex-flow: row wrap;
 	padding: 50px;
-	color: #fff;
-	background-color: black;
+	color: black;
+	background-color: white;
 	/* margin-top: 2em; */
 	margin-top: 0;
 	}
@@ -47,7 +47,7 @@
 	}
 	
 	.box a {
-	color: #999;
+	color: black;
 	}
 	
 	.h-box {
@@ -57,13 +57,13 @@
 	
 	.b-footer {
 	text-align: center;
-	color: #999;
+	color: black;
 	/* padding-top: 50px; */
 	}
 	
 	.l-footer p {
 	padding-right: 20%;
-	color: #999;
+	color: black;
 	}   
 	
 	@media screen and (min-width: 600px) {

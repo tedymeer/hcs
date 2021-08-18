@@ -14,12 +14,11 @@ const styles = {
 };
 const SectionT2 = () => {
     return (
-        <div >
+        <div>
+            
             <section class="feature-section img-fluid" >
         <div class="container">
-            <div class="row">
-                
-            </div>
+        <div className="four-heading">OUR QUALITIES</div>
             <div class="row">
                 <div class="col-md-4 feature-back">
                     <div class="features-div">

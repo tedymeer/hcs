@@ -13,6 +13,8 @@ function Recognitions() {
     return (
         <div className="rec-wrap">
             
+            <div className="recog-heading">RECOGNIZED BY</div>
+            <div className="g-wrap">
             <RecCard pic={pic1} name="MAJELIS ULAMA INDONESIA" caption=" LPPOM MUI  is the Indonesian authority of agreement and Halal Certification.
             Halal Certification Services (HCS) is a Halal certification body recognized by LPPOM MUI."/>
 
@@ -35,6 +37,7 @@ function Recognitions() {
             Established in 1999 the WHFC actively  works to ensure the interest and respect of Muslim consumer values."/>
 
 
+</div>
         </div>
     )
 }
