@@ -44,7 +44,9 @@ ul {
 .heading-main-white {
   color: #00ba51;
 }
-
+.space {
+  margin-top: 3rem;
+}
 .feature-section {
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVcGaZglKVlqHdqTOGo2k78lXx0q1jWA5F1qSzdXXrdm1GZL_PaTMYCRCPY-xmVi4mFks&usqp=CAU);
   background-position: 50% 50%;

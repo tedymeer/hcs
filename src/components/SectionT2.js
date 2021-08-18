@@ -14,8 +14,8 @@ const styles = {
 };
 const SectionT2 = () => {
     return (
-        <div>
-            <section class="feature-section img-fluid">
+        <div >
+            <section class="feature-section img-fluid" >
         <div class="container">
             <div class="row">
                 

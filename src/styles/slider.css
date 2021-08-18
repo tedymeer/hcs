@@ -1,36 +1,36 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap");
 
-
-.slider-wrap{
-    filter: brightness(1.25);
-    position:sticky;
+.slider-wrap {
+  filter: brightness(1.25);
+  position: sticky;
 }
 
 .carousel-content {
-    width: 80%;
-    position: absolute;
-    bottom: 35%;
-    left: 10%;
-    z-index: 20;
-    color: white;
-    text-shadow: 0 1px 2px rgba(0,0,0,.6);
-  }
-
-  .animation-box {
-    width: 100%;
-    height: 20.5rem;
-    /* height: fit-content; */
-    margin: 0 auto;
-    overflow: hidden;
-    position: relative;
-    /* display: flex; */
-    /* justify-content: left; */
+  width: 80%;
+  position: absolute;
+  bottom: 35%;
+  left: 10%;
+  z-index: 20;
+  color: white;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
 }
-.carousel-indicators{
-    visibility: hidden;}
-.halal-text{
+
+.animation-box {
+  width: 100%;
+  height: 20.5rem;
+  /* height: fit-content; */
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  /* display: flex; */
+  /* justify-content: left; */
+}
+.carousel-indicators {
+  visibility: hidden;
+}
+.halal-text {
   color: #134321;
-} 
+}
 .carousel-control-prev {
   display: none;
   visibility: hidden;
@@ -42,300 +42,285 @@
   visibility: hidden;
 }
 
-  @keyframes topFadeOut {
-    0% {
-      position: absolute;
-      top: -3rem;
-      opacity: 0;
-    }
-  
-    75% {
-      position: absolute;
-      top: 25%;
-      opacity: 1;
-    }
-  
-    100% {
-      opacity: 1;
-    }
-  }
-  
-  @keyframes bottomFadeOut {
-    0% {
-      position: absolute;
-      bottom: -5rem;
-      opacity: 0;
-    }
-  
-    75% {
-      position: absolute;
-      bottom: 25%;
-      opacity: 1;
-    }
-  
-    100% {
-      opacity: 1;
-    }
-    
-  }
-  
-  @keyframes topFadeOutVertical {
-    0% {
-      position: absolute;
-      top: -3rem;
-      opacity: 0;
-    }
-  
-    75% {
-      position: absolute;
-      top: 45%;
-      opacity: 1;
-    }
-  
-    100% {
-      opacity: 1;
-    }
-  }
-  
-  @keyframes rightFadeInOut {
-    0% {
-      position: absolute;
-      right: -3rem;
-      opacity: 0;
-    }
-  
-    75% {
-      position: absolute;
-      right: 10rem;
-      opacity: 1;
-    }
-  
-    100% {
-      opacity: 1;
-      right: 10rem;
-    }
-  }
-  
-  @keyframes fadeInOut {
-    0% {
-      opacity: 0;
-    }
-  
-    45% {
-      opacity: 1;
-    }
-  
-    100% {
-      opacity: 1;
-    }
-  }
-  
-  .first-text {
-    font-size: 4.4rem;
+@keyframes topFadeOut {
+  0% {
     position: absolute;
-    left: 4rem;
-    top: 5rem;
-    opacity: 1;
-    animation-name: topFadeOut;
-    animation-duration: 2s;
-    /* color: #134321; */
-    color: white;
-    /* background-color: rgba(255, 255, 255, 0.5); */
-    /* color: white; */
-    filter: brightness(1.75);
-    font-family: 'Raleway', sans-serif;
-
+    top: -3rem;
+    opacity: 0;
   }
-  .caption{
-    font-size: 1rem;
-    margin-left: 0.5em;
-    color: white;
-    /* color: #212529; */
-    font-family: 'Raleway', sans-serif;
+
+  75% {
+    position: absolute;
+    top: 25%;
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
-.colored-letter{
+
+@keyframes bottomFadeOut {
+  0% {
+    position: absolute;
+    bottom: -5rem;
+    opacity: 0;
+  }
+
+  75% {
+    position: absolute;
+    bottom: 25%;
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes topFadeOutVertical {
+  0% {
+    position: absolute;
+    top: -3rem;
+    opacity: 0;
+  }
+
+  75% {
+    position: absolute;
+    top: 45%;
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes rightFadeInOut {
+  0% {
+    position: absolute;
+    right: -3rem;
+    opacity: 0;
+  }
+
+  75% {
+    position: absolute;
+    right: 10rem;
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 1;
+    right: 10rem;
+  }
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+
+  45% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.first-text {
+  font-size: 4.4rem;
+  position: absolute;
+  left: 4rem;
+  top: 5rem;
+  opacity: 1;
+  animation-name: topFadeOut;
+  animation-duration: 2s;
+  /* color: #134321; */
+  color: white;
+  /* background-color: rgba(255, 255, 255, 0.5); */
+  /* color: white; */
+  filter: brightness(1.75);
+  font-family: "Raleway", sans-serif;
+}
+.caption {
+  font-size: 1rem;
+  margin-left: 0.5em;
+  color: white;
+  /* color: #212529; */
+  font-family: "Raleway", sans-serif;
+}
+.colored-letter {
   color: #134321;
 }
-@media only screen and (min-width:1025px) and (max-width:1440px) {
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
   .first-text {
     font-size: 3.7rem;
     top: 1.25rem;
-  } 
+  }
   .carousel-content {
     bottom: 38%;
     left: 8%;
-    
   }
 
   .animation-box {
     width: 100%;
     height: 14rem;
-}
-.caption{
-  font-size: 1rem;
-  margin-left: 0.2em;
-}
+  }
+  .caption {
+    font-size: 1rem;
+    margin-left: 0.2em;
+  }
 }
 
-@media only screen and (min-width:769px) and (max-width:1024px) {
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
   .first-text {
     font-size: 2.7rem;
     top: 1.2rem;
-  } 
+  }
   .carousel-content {
     bottom: 20%;
     left: 8%;
-    
   }
 
   .animation-box {
     width: 100%;
     height: 14rem;
-}
-.caption{
-  font-size: 1rem;
-  margin-left: 0.2em;
-}
+  }
+  .caption {
+    font-size: 1rem;
+    margin-left: 0.2em;
+  }
 }
 
-@media only screen and (min-width:640px) and (max-width:768px) {
+@media only screen and (min-width: 640px) and (max-width: 768px) {
   .first-text {
     font-size: 2.5rem;
     top: 1.7rem;
-  } 
+  }
   .carousel-content {
     bottom: 16%;
     left: 10%;
-    
   }
 
   .animation-box {
     width: 100%;
     height: 14rem;
-}
-.caption{
-  font-size: 1rem;
-  margin-left: 0.2em;
+  }
+  .caption {
+    font-size: 1rem;
+    margin-left: 0.2em;
+  }
 }
 
-}
-
-@media only screen and (min-width:542px) and (max-width:639px) {
+@media only screen and (min-width: 542px) and (max-width: 639px) {
   .first-text {
     font-size: 2rem;
     top: 3.3rem;
-  } 
+  }
   .carousel-content {
     bottom: 25%;
     left: 5%;
-    
   }
 
   .animation-box {
     width: 100%;
     height: 14rem;
+  }
+  .caption {
+    font-size: 0.9rem;
+    margin-left: 0.1em;
+  }
 }
-.caption{
-  font-size: 0.9rem;
-  margin-left: 0.1em;
-}
-}
-@media only screen and (min-width:425px) and (max-width:541px) {
+@media only screen and (min-width: 425px) and (max-width: 541px) {
   .first-text {
     font-size: 1.5rem;
     top: 5rem;
-  } 
+  }
   .carousel-content {
     bottom: 25%;
     left: 11%;
-    
   }
 
   .animation-box {
     width: 100%;
     height: 14rem;
+  }
+  .caption {
+    font-size: 0.7rem;
+    margin-left: 0em;
+  }
+  .cimg {
+    height: 50vh;
+  }
 }
-.caption{
-  font-size: 0.7rem;
-  margin-left: 0em;
-}
-.cimg{
-  height: 50vh;
-}
-
-}
-@media only screen and (min-width:375px) and (max-width:424px) {
+@media only screen and (min-width: 375px) and (max-width: 424px) {
   .first-text {
     font-size: 1.7rem;
     top: 7rem;
-}
+  }
   .carousel-content {
     bottom: 0%;
-    top:5%;
+    top: 5%;
     left: 2%;
-    
   }
 
   .animation-box {
     width: 100%;
     height: 14rem;
-}
-.caption{
-  font-size: 0.6rem;
-  margin-left: 0em;
-}
-.cimg{
-  height: 60vh;
+  }
+  .caption {
+    font-size: 0.6rem;
+    margin-left: 0em;
+  }
+  .cimg {
+    height: 60vh;
+  }
 }
 
-}
-
-@media only screen and (min-width:320px) and (max-width:374px) {
+@media only screen and (min-width: 320px) and (max-width: 374px) {
   .first-text {
     font-size: 1.1rem;
     top: 7rem;
-  } 
+  }
   .carousel-content {
     bottom: 20%;
     left: 2%;
-    
   }
 
   .animation-box {
     width: 100%;
     height: 14rem;
-}
-.caption{
-  font-size: 0.4rem;
-  margin-left: 0.2em;
-}
-.cimg{
-  height: 50vh;
+  }
+  .caption {
+    font-size: 0.4rem;
+    margin-left: 0.2em;
+  }
+  .cimg {
+    height: 50vh;
+  }
 }
 
-}
-
-@media only screen and (max-width:319px) {
+@media only screen and (max-width: 319px) {
   .first-text {
     font-size: 1rem;
     top: 7rem;
-  } 
+  }
   .carousel-content {
     bottom: 8%;
     left: 2%;
-    
   }
 
   .animation-box {
     width: 100%;
     height: 14rem;
-}
-.caption{
-  font-size: 0.4rem;
-  margin-left: 0.2em;
-}
-.cimg{
-  height: 50vh;
-}
-
+  }
+  .caption {
+    font-size: 0.4rem;
+    margin-left: 0.2em;
+  }
+  .cimg {
+    height: 50vh;
+  }
 }
