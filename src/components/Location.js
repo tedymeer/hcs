@@ -1,16 +1,19 @@
-import {useContext} from 'react'
+import {useContext,useState} from 'react'
 import EmailIcon from '@material-ui/icons/Email';
 import PhoneForwardedIcon from '@material-ui/icons/PhoneForwarded';
 import UserContext from '../UserContext'
 
 import '../styles/location.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import LocCard from './LocCard';
 
 
 function Location() {
     const locations = useContext(UserContext)
+    const [loc, setloc] = useState(locations.data)
+
   return (
-      
+
     <div className="loc-section">
       <div  className="main-box">
          <div className="row" >
@@ -21,10 +24,9 @@ function Location() {
 <span style={{color:"white",fontWeight:"bold",fontSize:"1.7rem"}}>OFFICE  </span>  <span style={{color: "#00ba51",fontSize:"1.7rem",textDecoration:"none",fontWeight:"bold"}}s>LOCATIONS</span>
                     </h2>
                     <p className="main-info" >
-                        {console.log(locations)}
-                        Halal Certification Services certifies companies all
-                        over the world. Our locally based auditors can support you in your local languages.
-                        Find the contact details of our offices nearest to you.</p>
+                        {console.log(locations.data)}
+                     {locations.data?.description}
+                    </p>
                 </div>
             </div>
 
@@ -32,57 +34,33 @@ function Location() {
              <div className="col-md-8" >
     
                 <div className="row">
-                    <div className="col-md-4 px-4 my-2" >
-    
-                        <div className="mt-3">
-                            <h5 className="mb-2" style={{fontWeight:"600"}}><a href="#" style={{color: "#00ba51",textDecoration:"none"}}>SWITZELAND</a>
-                            </h5>
-                            <p  ><PhoneForwardedIcon/>+ 41 61 813 30 64<br/><PhoneForwardedIcon/>+ 41 61 813 30 65<br/><EmailIcon/> info@halalcs.org</p>
-                           
-    
-                        </div>
-                    </div>
-    
-                    <div className="col-md-4 px-4 my-2" >
-    
-                        <div className="mt-3">
-                           <h5 className="mb-2" style={{fontWeight:"600"}}><a href="#" style={{color: "#00ba51",textDecoration:"none"}}>GREECE</a>
-                           </h5>
-                            <p ><PhoneForwardedIcon/>+ 30 2310 474115<br/><PhoneForwardedIcon/>+ 30 2310 472984<br/><EmailIcon/> greece@halalcs.org</p>
-                          
-                        </div>
-                    </div>
-                    <div className="col-md-4 px-4 my-2">
                     
-                        <div className="mt-3">
-                           <h5 className="mb-2" style={{fontWeight: "600"}}><a href="#" style={{color: "#00ba51",textDecoration:"none"}}>FRANCE</a></h5>
-                            
-                            <p><PhoneForwardedIcon/>+ 33 6 99 42 23 18<br/><EmailIcon/> france@halalcs.org</p>
-                    
-                        </div>
-                    </div>
-                       
-   
-    <div className="col-md-4 px-4 my-2" >
     
-        <div className="mt-3">
-            <h5 className="mb-2" style={{fontWeight: "600"}}><a href="#" style={{color: "#00ba51",textDecoration:"none"}}>SPAIN/PORTUGAL</a></h5>
-               
-                    <p><PhoneForwardedIcon/>+ 34 692 59 50 40<br/><EmailIcon/> spain@halalcs.org</p>
-    
-        </div>
-    </div>
+                    <LocCard cname={locations.data?.location[0]?.name}
+                     phone1={locations.data?.location[0]?.contacts[0]}
+                     phone2={locations.data?.location[0]?.contacts[1]} 
+                     email={locations.data?.location[0]?.contacts[2]}/>
+       
+                    <LocCard cname={locations.data?.location[1]?.name}
+                     phone1={locations.data?.location[1]?.contacts[0]}
+                     email={locations.data?.location[1]?.contacts[1]}/>
+
+                    <LocCard cname={locations.data?.location[2]?.name}
+                     email={locations.data?.location[2]?.contacts[0]}/>
+           
+                    <LocCard cname={locations.data?.location[3]?.name}
+                     phone1={locations.data?.location[3]?.contacts[0]}
+                     email={locations.data?.location[3]?.contacts[1]}/>
+     
+                    <LocCard cname={locations.data?.location[4]?.name}
+                     phone1={locations.data?.location[4]?.contacts[0]}
+                     phone2={locations.data?.location[4]?.contacts[1]} 
+                     email={locations.data?.location[4]?.contacts[2]}/>
+     
                    
-    
-   <div className="col-md-4 px-4 my-2" >
-    
-        <div className="mt-3">
-            <h5 className="mb-2" style={{fontWeight: "600"}}><a href="#" style={{color: "#00ba51",textDecoration:"none"}}>GERMANY</a></h5>
-               
-                    <p><EmailIcon/> info@halalcs.eu</p>
-    
-        </div>
-    </div>
+     
+                   
+                   
     
     
                   
