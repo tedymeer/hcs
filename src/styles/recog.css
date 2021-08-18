@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+.rec-wrap{
+    /* border: 2px solid red; */
+    display: grid;
+    grid-template-columns: 0.3fr 0.3fr 0.3fr;
+    justify-content: center;
+    align-content: center;
+    grid-gap: 1em;
+    background-color: black;
+   padding: 2em;
+
+}
+.rec-card{
+    /* border: 2px solid blue; */
+    
+    
+}
+.pic-name-wrap{
+    display: grid;
+    grid-template-columns: 0.25fr 0.75fr;
+    grid-gap: 1em;
+    margin-left: 1em;
+    margin-bottom: 0.5em;
+}
+.rec-pic{
+    /* border: 2px solid yellow; */
+}
+.rec-name{
+    /* border: 2px solid pink;
+    font-size: 1rem; */
+    /* font-family: 'Open Sans', sans-serif; */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    /* font-weight: bolder;
+    color: #00ba51; */
+
+    
+    font-size: 21.98px;
+    letter-spacing: 0.5px;
+    color: #00ba51;
+
+
+}
+.rec-caption{
+    /* border: 2px solid orange; */
+    /* font-size: 1rem; */
+    margin-left: 1.3em;
+    /* font-family: 'Open Sans', sans-serif; */
+    /* color: white; */
+    /* font-weight: bold; */
+    
+    
+    
+    font-size: 14px;
+    color: #fff;
+    /* padding-left: 90px; */
+    line-height: 2;
+
+}
+
+.rec-pic-style{
+    border-radius: 50%;
+    height: 7em;
+    width: 7em;
+}

@@ -5,7 +5,7 @@ import Slider from '../components/Slider'
 import Tiles from '../components/Tiles'
 import SectionT from '../components/SectionT'
 import SectionT2 from '../components/SectionT2'
-import OwlSlider from '../components/OwlSlider'
+import Recognitions from '../components/Recognitions'
 import NewsCardSlider from '../components/CardSlider'
 import ReferencesCardSlider from '../components/RefCardSlider'
 import Location from '../components/Location';
@@ -34,11 +34,11 @@ function Homepage() {
         <SectionT/>
         <SectionT2/>
 
-<div style={{backgroundColor:'paleGoldenRod'}}>
+
         <SectionHeading text="RECOGNITIONS" background={{backgroundColor:'paleGoldenRod'}}/>
         
-        <OwlSlider/>
-</div>
+        <Recognitions/>
+        
 <div style={{backgroundColor:'paleGoldenRod'}}>
         <SectionHeading text="NEWS" background={{backgroundColor:'paleGoldenRod'}}/>
         
