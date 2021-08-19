@@ -37,7 +37,7 @@ function Homepage() {
            
         
 {/* <div style={{backgroundColor:'paleGoldenRod'}}> */}
-        <NewsCardSlider/>s
+        <NewsCardSlider/>
  {/* </div>        */}
         {/* <OwlSlider/> */}
 
