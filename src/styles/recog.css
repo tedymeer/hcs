@@ -1,97 +1,345 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+.heado {
+  margin-top: 2rem;
+  max-width: 100%;
 
-.rec-wrap{
-    /* border: 2px solid red; */
-   
-    /* background-color: black; */
-    background-image: url(https://images.unsplash.com/photo-1588345921523-c2dcdb7f1dcd?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8d2hpdGV8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80);
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding: 60px 0;
-    min-height: 50vh;
-    padding: 2em;
+  text-align: center;
+  color: black;
 
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-.g-wrap{
-    display: grid;
-    grid-template-columns: 0.3fr 0.3fr 0.3fr;
-    justify-content: center;
-    align-content: center;
-    grid-gap: 1em;
-}
-.rec-card{
-    /* border: 2px solid blue; */
-    
-    
-}
-.pic-name-wrap{
-    display: grid;
-    grid-template-columns: 0.25fr 0.75fr;
-    grid-gap: 1em;
-    margin-left: 1em;
-    margin-bottom: 0.5em;
-}
-.rec-pic{
-    /* border: 2px solid yellow; */
-}
-.rec-name{
-    /* border: 2px solid pink;
-    font-size: 1rem; */
-    /* font-family: 'Open Sans', sans-serif; */
-    display: flex;
-    align-items: center;
-    text-align: center;
-    /* font-weight: bolder;
-    color: #00ba51; */
-
-    
-    font-size: 21.98px;
-    letter-spacing: 0.5px;
-    color: #00ba51;
-    font-weight: 500;
-
-}
-.rec-caption{
-    /* border: 2px solid orange; */
-    /* font-size: 1rem; */
-    margin-left: 1.3em;
-    /* font-family: 'Open Sans', sans-serif; */
-    /* color: white; */
-    /* font-weight: bold; */
-    
-    
-    
-    font-size: 14px;
-    color: #fff;
-    color: black;
-    /* padding-left: 90px; */
-    line-height: 2;
-    
-
+.service-wrap {
+  border: 1px solid #e6e6e6;
+  padding: 50px 30px;
+  position: relative;
+  border-radius: 0.5rem;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
 }
 
-.rec-pic-style{
-    border-radius: 50%;
-    height: 7em;
-    width: 7em;
-    border: 4px double black;
-}
-.recog-heading{
-    color: black;
-    font-family: 'Roboto', sans-serif;
-    font-size: 2rem;
-    /* letter-spacing: 2px; */
-    text-align: center; 
-    margin-bottom: 1em;
+.service-wrap p {
+  position: relative;
 }
 
+.service-wrap:hover {
+  background-image: url(https://halalcs.org/wp-content/uploads/2017/11/logo_halal_indonesia-150x150.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: local;
+  transition: all 0.5s;
+  text-shadow: 1px 1px black;
+  border-radius: 0.5rem;
+}
 
-@media only screen and (max-width:768px){
-    .g-wrap{
-     
-        grid-template-columns: 1fr;
-       
-    }
+.service-wrap:hover:before {
+  background: rgba(0, 0, 0, 0.2901960784313726);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0px;
+  content: "";
+  top: 0;
+  opacity: 1;
+  border-radius: 0.5rem;
+}
+
+.service-wrap:hover h4,
+.service-wrap:hover p {
+  color: #fff;
+}
+.service-wrap h4 {
+  font-weight: 500;
+  color: #00ba51;
+  font-size: 22px;
+  margin-bottom: 17px;
+
+  text-transform: capitalize;
+  position: relative;
+}
+.service-wrap a {
+  font-size: 14px;
+  font-weight: 600;
+  position: relative;
+  color: #00ba51;
+  text-decoration: none;
+}
+/* ===================Card 2=== */
+.service-wrap2 {
+  border: 1px solid #e6e6e6;
+  padding: 50px 30px;
+  position: relative;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+  border-radius: 0.5rem;
+}
+
+.service-wrap2 p {
+  position: relative;
+}
+
+.service-wrap2:hover {
+  background-image: url(https://halalcs.org/wp-content/uploads/2017/11/logo_halal_malaysia-150x150.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: local;
+  transition: all 0.5s;
+  text-shadow: 1px 1px black;
+  border-radius: 0.5rem;
+}
+
+.service-wrap2:hover:before {
+  background: rgba(0, 0, 0, 0.2901960784313726);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0px;
+  content: "";
+  top: 0;
+  opacity: 1;
+  border-radius: 0.5rem;
+}
+
+.service-wrap2:hover h4,
+.service-wrap2:hover p {
+  color: #fff;
+}
+.service-wrap2 h4 {
+  font-weight: 500;
+  color: #00ba51;
+  font-size: 22px;
+  margin-bottom: 17px;
+
+  text-transform: capitalize;
+  position: relative;
+}
+.service-wrap2 a {
+  font-size: 14px;
+  font-weight: 600;
+  position: relative;
+  color: #00ba51;
+  text-decoration: none;
+}
+
+/* 
+===Card3 */
+.service-wrap3 {
+  border: 1px solid #e6e6e6;
+  padding: 50px 30px;
+  position: relative;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+  border-radius: 0.5rem;
+}
+
+.service-wrap3 p {
+  position: relative;
+}
+
+.service-wrap3:hover {
+  background-image: url(https://halalcs.org/wp-content/uploads/2017/11/logo_halal_thailand-150x150.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: local;
+  transition: all 0.5s;
+  text-shadow: 1px 1px black;
+  border-radius: 0.5rem;
+}
+
+.service-wrap3:hover:before {
+  background: rgba(0, 0, 0, 0.2901960784313726);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0px;
+  content: "";
+  top: 0;
+  opacity: 1;
+  border-radius: 0.5rem;
+}
+
+.service-wrap3:hover h4,
+.service-wrap3:hover p {
+  color: #fff;
+}
+.service-wrap3 h4 {
+  font-weight: 500;
+  color: #00ba51;
+  font-size: 22px;
+  margin-bottom: 17px;
+  text-transform: capitalize;
+  position: relative;
+}
+.service-wrap3 a {
+  font-size: 14px;
+  font-weight: 600;
+  position: relative;
+  color: #00ba51;
+  text-decoration: none;
+}
+/* 
+========= Card 4*/
+.service-wrap4 {
+  border: 1px solid #e6e6e6;
+  padding: 50px 30px;
+  position: relative;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+  border-radius: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.service-wrap4 p {
+  position: relative;
+}
+
+.service-wrap4:hover {
+  background-image: url(https://halalcs.org/wp-content/uploads/2017/11/logo_recognitions-150x150.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: local;
+  transition: all 0.5s;
+  text-shadow: 1px 1px black;
+  border-radius: 0.5rem;
+}
+
+.service-wrap4:hover:before {
+  background: rgba(0, 0, 0, 0.2901960784313726);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0px;
+  content: "";
+  top: 0;
+  opacity: 1;
+  border-radius: 0.5rem;
+}
+
+.service-wrap4:hover h4,
+.service-wrap4:hover p {
+  color: #fff;
+}
+.service-wrap4 h4 {
+  margin-bottom: 17px;
+  font-weight: 500;
+  color: #00ba51;
+  font-size: 22px;
+  text-transform: capitalize;
+  position: relative;
+}
+.service-wrap4 a {
+  font-size: 14px;
+  font-weight: 600;
+  position: relative;
+  color: #00ba51;
+  text-decoration: none;
+}
+/* 
+===CArd 5== */
+.service-wrap5 {
+  border: 1px solid #e6e6e6;
+  padding: 50px 30px;
+  position: relative;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+  border-radius: 0.5rem;
+}
+
+.service-wrap5 p {
+  position: relative;
+}
+
+.service-wrap5:hover {
+  background-image: url(https://halalcs.org/wp-content/uploads/2017/06/700x9999.622CCB68-5056-B775-A2963358EBD4A362-featured_image-150x150.png);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: local;
+  transition: all 0.5s;
+  text-shadow: 1px 1px black;
+  border-radius: 0.5rem;
+}
+
+.service-wrap5:hover:before {
+  background: rgba(0, 0, 0, 0.2901960784313726);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0px;
+  content: "";
+  top: 0;
+  opacity: 1;
+  border-radius: 0.5rem;
+}
+
+.service-wrap5:hover h4,
+.service-wrap5:hover p {
+  color: #fff;
+}
+.service-wrap5 h4 {
+  font-weight: 500;
+  color: #00ba51;
+  font-size: 22px;
+  margin-bottom: 17px;
+
+  text-transform: capitalize;
+  position: relative;
+}
+.service-wrap5 a {
+  font-size: 14px;
+  font-weight: 600;
+  position: relative;
+  color: #00ba51;
+  text-decoration: none;
+}
+/* 
+===Card 6=== */
+.service-wrap6 {
+  border: 1px solid #e6e6e6;
+  padding: 50px 30px;
+  position: relative;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+  border-radius: 0.5rem;
+}
+
+.service-wrap6 p {
+  position: relative;
+}
+
+.service-wrap6:hover {
+  background-image: url(https://halalcs.org/wp-content/uploads/2017/11/logo_whfc-e1528396673397-150x150.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: local;
+  transition: all 0.5s;
+  text-shadow: 1px 1px black;
+  border-radius: 0.5rem;
+}
+
+.service-wrap6:hover:before {
+  background: rgba(0, 0, 0, 0.2901960784313726);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0px;
+  content: "";
+  top: 0;
+  opacity: 1;
+  border-radius: 0.5rem;
+}
+
+.service-wrap6:hover h4,
+.service-wrap6:hover p {
+  color: #fff;
+}
+.service-wrap6 h4 {
+  font-weight: 500;
+  color: #00ba51;
+  font-size: 22px;
+  margin-bottom: 17px;
+
+  text-transform: capitalize;
+  position: relative;
+}
+.service-wrap6 a {
+  font-size: 14px;
+  font-weight: 600;
+  position: relative;
+  color: #00ba51;
+  text-decoration: none;
 }

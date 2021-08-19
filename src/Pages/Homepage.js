@@ -32,12 +32,13 @@ function Homepage() {
 
         {/* <SectionT/> */}
         <SectionT2/>
-
-           <Recognitions/>
+        <Recognitions/>
+       
+           
         
-<div style={{backgroundColor:'paleGoldenRod'}}>
-        <NewsCardSlider/>
- </div>       
+{/* <div style={{backgroundColor:'paleGoldenRod'}}> */}
+        <NewsCardSlider/>s
+ {/* </div>        */}
         {/* <OwlSlider/> */}
 
 
