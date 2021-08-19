@@ -31,9 +31,9 @@ function Homepage() {
       
 
         {/* <SectionT/> */}
-        <Recognitions/>
         <SectionT2/>
-
+        <Recognitions/>
+       
            
         
 {/* <div style={{backgroundColor:'paleGoldenRod'}}> */}
