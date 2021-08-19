@@ -31,13 +31,14 @@ function Homepage() {
       
 
         {/* <SectionT/> */}
+        <Recognitions/>
         <SectionT2/>
 
-           <Recognitions/>
+           
         
-<div style={{backgroundColor:'paleGoldenRod'}}>
-        <NewsCardSlider/>
- </div>       
+{/* <div style={{backgroundColor:'paleGoldenRod'}}> */}
+        <NewsCardSlider/>s
+ {/* </div>        */}
         {/* <OwlSlider/> */}
 
 
