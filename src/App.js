@@ -29,11 +29,15 @@ function App() {
 
 
 <div className="App">
+   <div className="top-headline">
+    This is the top headline
+   </div>
     <UserProvider value={officelocations}>
     
     <Switch>
-     
+    
       <Route exact path="/">
+     
      <Homepage/>
      
       </Route>
