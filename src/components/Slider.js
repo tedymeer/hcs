@@ -25,6 +25,7 @@ function Slider() {
   </section>
 
   </div>
+ 
         <Carousel fade>
 
   <Carousel.Item interval={2500}>
@@ -32,6 +33,7 @@ function Slider() {
       className="d-block w-100 cimg"
       src={cover2}
       alt="First slide"
+    
     />
    
   </Carousel.Item>
@@ -56,7 +58,8 @@ function Slider() {
 
 
     </Carousel>
-</div>
+    </div>
+
     )
 }
 

@@ -18,7 +18,11 @@ function App() {
     
     // let officeLocSecUrl = process.env.REACT_SERVER_API_URL + "/office";
     // console.log(officeLocSecUrl)
-    axios.get("https://halalcs.herokuapp.com/office/en")
+    axios.get("https://halalcs.herokuapp.com/office",{
+      params: {
+        language: "english"
+      }
+    })
         .then((response) => {console.log(response); setOfficeLocations(response.data)});
 
     
@@ -29,15 +33,11 @@ function App() {
 
 
 <div className="App">
-   <div className="top-headline">
-    This is the top headline
-   </div>
     <UserProvider value={officelocations}>
     
     <Switch>
-    
-      <Route exact path="/">
      
+      <Route exact path="/">
      <Homepage/>
      
       </Route>
