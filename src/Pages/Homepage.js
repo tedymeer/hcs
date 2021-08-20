@@ -26,8 +26,8 @@ function Homepage() {
         </div>
       
         <Slider/>
-        
-        <Tiles/>
+{/*         
+        <Tiles/> */}
       
 
         {/* <SectionT/> */}

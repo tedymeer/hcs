@@ -54,8 +54,14 @@ class CardSlider extends React.Component {
       ]
     };
     return (
+      <div>
+         <div class="section-head col-sm-12" style={{marginTop:"4rem"}}>
+          <h4><span>OUR</span> LATEST NEWS</h4>
+          
+        </div>
+      
       <div className="news-section">
-        <div className="news-heading">NEWS</div>
+        {/* <div className="news-heading">NEWS</div> */}
         <Slider {...settings} >
            
             <NewsCard photo={news1}/>
@@ -73,6 +79,7 @@ class CardSlider extends React.Component {
 
         </Slider>
       </div>
+     </div> 
     );
   }
 }
