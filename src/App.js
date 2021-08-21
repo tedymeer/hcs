@@ -18,11 +18,7 @@ function App() {
     
     // let officeLocSecUrl = process.env.REACT_SERVER_API_URL + "/office";
     // console.log(officeLocSecUrl)
-    axios.get("https://halalcs.herokuapp.com/office",{
-      params: {
-        language: "english"
-      }
-    })
+    axios.get("https://halalcs.herokuapp.com/office/en")
         .then((response) => {console.log(response); setOfficeLocations(response.data)});
 
     
