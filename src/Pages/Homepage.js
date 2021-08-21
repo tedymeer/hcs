@@ -26,18 +26,18 @@ function Homepage() {
         </div>
       
         <Slider/>
-        
-        <Tiles/>
+{/*         
+        <Tiles/> */}
       
 
         {/* <SectionT/> */}
-        <SectionT2/>
         <Recognitions/>
-       
+        <SectionT2/>
+
            
         
 {/* <div style={{backgroundColor:'paleGoldenRod'}}> */}
-        <NewsCardSlider/>
+        <NewsCardSlider/>s
  {/* </div>        */}
         {/* <OwlSlider/> */}
 

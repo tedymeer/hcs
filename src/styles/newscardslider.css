@@ -1,5 +1,35 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
-
+.section-head {
+  margin-bottom: 0rem;
+}
+.section-head h4 {
+  position: relative;
+  padding: 0;
+  color: #00ba51;
+  line-height: 1;
+  letter-spacing: 0.3px;
+  font-size: 34px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: none;
+  margin-bottom: 30px;
+}
+.section-head h4:before {
+  content: "";
+  width: 60px;
+  height: 3px;
+  background: #00ba51;
+  position: absolute;
+  left: 0px;
+  bottom: -10px;
+  right: 0;
+  margin: 0 auto;
+}
+.section-head h4 span {
+  font-weight: 700;
+  padding-bottom: 5px;
+  color: #2f2f2f;
+}
 .slick-slider {
   margin-bottom: 6em;
   margin-top: 2em;
@@ -19,11 +49,11 @@
 }
 
 .news-section {
-  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVcGaZglKVlqHdqTOGo2k78lXx0q1jWA5F1qSzdXXrdm1GZL_PaTMYCRCPY-xmVi4mFks&usqp=CAU);
+  /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVcGaZglKVlqHdqTOGo2k78lXx0q1jWA5F1qSzdXXrdm1GZL_PaTMYCRCPY-xmVi4mFks&usqp=CAU);
     background-position: 50% 50%;
     background-size: cover;
-    background-repeat: no-repeat;
-  padding: 60px 0;
+    background-repeat: no-repeat; */
+
   min-height: 50vh;
 }
 
