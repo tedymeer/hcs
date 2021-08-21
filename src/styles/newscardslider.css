@@ -64,3 +64,13 @@
   letter-spacing: 2px;
   text-align: center;
 }
+
+
+@media only screen and (max-width:425px){
+  .section-head h4 {
+   
+    padding-top: 1em;
+    font-size: 1.6rem;
+   
+  }
+}
