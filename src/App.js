@@ -29,9 +29,9 @@ function App() {
 
 
 <div className="App">
-   <div className="top-headline">
+   {/* <div className="top-headline">
     This is the top headline
-   </div>
+   </div> */}
     <UserProvider value={officelocations}>
     
     <Switch>
